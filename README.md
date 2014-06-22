@@ -11,6 +11,7 @@
 )  
 - Data also can found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 )
+- Experiment [README](https://github.com/QuasiGuru/Samsung-Activities/UCI HAR Dataset/README.txt)  
 
 ### File Structure
 - README.MD -- this file  
@@ -69,4 +70,4 @@
 
 ### Step 6 -- Reshape The Data And Print It To A File
 - Calculate the average values of the means/standard deviations for each actity and each subject  
-- Print the resulting data frame to file  
+- Print the resulting data frame to file (tab delimited)  

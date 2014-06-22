@@ -79,7 +79,7 @@ full_data$aid <- NULL
 #Get The Average For Each Variable For Each Subject ID
 #And Each Activity
 
-#Which Variables are Ids and Which are Measured
+#Which Variables Are Ids and Which Are Measured
 fd <- melt(full_data, id.vars = c("sid","activity"))
 
 #Cast the Data Frame and Write It to a File
