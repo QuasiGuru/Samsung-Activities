@@ -19,8 +19,8 @@ names(features) <- c("fid", "featurename")
 mstl <- grep("-(mean\\()|(std\\()", features$featurename)
 
 #Make Column Names Valid -- 1. Remove Brackets 2. Remove Dashes
-#3/4. Change "t/f" abbreviation with Avg time/frequency
-#5/6/7. Change "X/Y/Z" abbreviation with X/Y/Zaxis
+#3/4. Change "t/f" abbreviation with avg time/freq
+#5/6/7. Change "X/Y/Z" abbreviation with x/y/zaxis
 #8. Lower Case
 features$featurename <- gsub("\\(\\)", "", features$featurename)
 features$featurename <- gsub("-", ".", features$featurename)
