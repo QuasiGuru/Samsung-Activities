@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Course Project Codebook README
+# Getting and Cleaning Data Course Project README
 
 
 ### Notes
@@ -11,7 +11,7 @@
 )  
 - Data also can found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 )
-- Experiment [README](https://github.com/QuasiGuru/Samsung-Activities/UCI HAR Dataset/README.txt)  
+- Experiment [README](https://github.com/QuasiGuru/Samsung-Activities/blob/master/UCI HAR Dataset/README.txt)  
 
 ### File Structure
 - README.MD -- this file  
